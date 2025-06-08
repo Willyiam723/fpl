@@ -78,6 +78,8 @@ def extractPlayerDataframe(player_url, team_name, player_name):
     driver.get(player_url)
     player_html = BeautifulSoup(driver.page_source, 'html.parser')
 
+    #build dataframe...
+
 
 
 
